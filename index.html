@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- <div id="ball"></div> -->
     <div class="main-page full-screen">
       <div>Manav Singh Chauhan</div>
-      <div><a href="#menu">...</a></div>
+      <a class="down-arrow" href="#menu">&#10148;</a>
     </div>
     <div id="menu" class="menu full-screen">
       <a class="menu-item" href="#personal">Personal</a>
@@ -20,26 +19,29 @@
       <a class="menu-item" href="#course">Course</a>
       <a class="menu-item" href="#git">Git</a>
     </div>
+
     <div class="sections">
       <div id="personal" class="personal full-screen">
         <div class="personal-left">
+          <a class="ball up-ball-personal" href="#menu">&#10148;</a>
+          <a class="ball down-ball-personal" href="#hobbies">&#10148;</a>
           <div class="personal-left-up">
-            <div>Manav Singh Chauhan</div>
-            <div id="professional-title">Web Developer</div>
-            <div id="professional-title">Rust</div>
+            <div class="name">Manav Singh Chauhan</div>
+            <div id="job-title" class="title">Web Developer</div>
+            <div id="language-title" class="title">Rust</div>
           </div>
           <div class="personal-left-down">
             <ul>
               <li>
                 Currently pursuing<br />
-                Bachlors in Science, Computer Science(Honors)<br />
+                Bachelors in Science, Computer Science (Honors)<br />
                 from Dyal Singh College, University of Delhi.
               </li>
               <li>
                 Experienced in<br />
-                <i>__Web Development__</i> <br />
-                <i>__Systems Programming__</i><br />
-                <i>__Deep Learning__</i>
+                <i>Web Development</i> <br />
+                <i>Systems Programming</i><br />
+                <i>Deep Learning</i>
               </li>
               <li>
                 In love with Theoretical Computer Science and Real Analysis.<br />(Also
@@ -96,48 +98,124 @@
       </div>
 
       <div id="hobbies" class="full-screen">
-        <center><h1>Hobbies</h1></center>
-        <div class="hobby-container">
+        <a class="ball up-ball-hobby" href="#personal">&#8686;</a>
+        <a class="ball down-ball-hobby" href="#address">&#8686;</a>
+        <div class="hobby-card-container">
           <div class="hobby-card">
-            <div class="hobby-heading">
-              <h1>Hobby_1</h1>
-            </div>
+            <div class="hobby-title">Hobby-1</div>
             <div class="hobby-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              officia libero sequi sapiente obcaecati ad facilis ipsum qui, ex
-              nihil nulla voluptate provident neque alias ea eum mollitia,
-              accusamus exercitationem!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
             </div>
           </div>
           <div class="hobby-card">
-            <div class="hobby-heading">
-              <h1>Hobby_2</h1>
-            </div>
+            <div class="hobby-title">Hobby-2</div>
             <div class="hobby-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              officia libero sequi sapiente obcaecati ad facilis ipsum qui, ex
-              nihil nulla voluptate provident neque alias ea eum mollitia,
-              accusamus exercitationem!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
             </div>
           </div>
           <div class="hobby-card">
-            <div class="hobby-heading">
-              <h1>Hobby_3</h1>
-            </div>
+            <div class="hobby-title">Hobby-3</div>
             <div class="hobby-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              officia libero sequi sapiente obcaecati ad facilis ipsum qui, ex
-              nihil nulla voluptate provident neque alias ea eum mollitia,
-              accusamus exercitationem!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
+            </div>
+          </div>
+          <div class="hobby-card">
+            <div class="hobby-title">Hobby-4</div>
+            <div class="hobby-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
+            </div>
+          </div>
+          <div class="hobby-card">
+            <div class="hobby-title">Hobby-5</div>
+            <div class="hobby-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
+            </div>
+          </div>
+          <div class="hobby-card">
+            <div class="hobby-title">Hobby-6</div>
+            <div class="hobby-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              odio, culpa illo cumque architecto et delectus eos, molestiae unde
+              quidem eligendi quas obcaecati dolorem, asperiores ducimus itaque
+              aperiam eum iure.
             </div>
           </div>
         </div>
       </div>
 
-      <div id="address" class="full-screen">Address Section</div>
-      <div id="plans" class="full-screen">Plans Section</div>
-      <div id="course" class="full-screen">Course Section</div>
-      <div id="git" class="full-screen">Git Section</div>
+      <div id="address" class="full-screen">
+        <div id="contact-me">Contact Me</div>
+        <div id="email-info">manavchauhan124@gmail.com</div>
+        <div id="phone-info">+91 31415926</div>
+        <div id="address-info">New Delhi</div>
+      </div>
+
+      <div id="plans" class="full-screen dark-bg">
+        <div class="plans-card">
+          <div class="plans-content">
+            <h2 class="plans-heading">Future Plans</h2>
+            <ul class="plans-list">
+              <li>
+                Continuing to expand my knowledge and skills in web development.
+              </li>
+              <li>
+                Exploring opportunities for contributing to open-source
+                projects.
+              </li>
+              <li>
+                Considering pursuing a master's degree in Computer Science.
+              </li>
+              <li>Learning new programming languages and frameworks.</li>
+              <li>Building a portfolio of diverse web applications.</li>
+              <li>Attending tech conferences and workshops.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="course" class="full-screen">
+        <div class="course-card">
+          <div class="course-content">
+            <h2>Current Coursework</h2>
+            <ul class="course-list">
+              <li>Web Development Fundamentals</li>
+              <li>Data Structures and Algorithms</li>
+              <li>User Interface Design</li>
+              <li>Database Management</li>
+              <li>Machine Learning Basics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="git" class="full-screen">
+        <div class="git-content">
+          <h2>GitHub Projects</h2>
+          <p>Explore my coding projects on GitHub.</p>
+          <a
+            href="https://github.com/Meownav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="github-button">GitHub Profile</button>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
   <script src="script.js"></script>
